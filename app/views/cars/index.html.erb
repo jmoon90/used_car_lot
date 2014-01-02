@@ -1,0 +1,9 @@
+<ul>
+<% @car.all.each do |car| %>
+  <li><%= car %></li>
+<% end %>
+</ul>
+
+<br>
+<br>
+<%= link_to "Add Car", new_car_path %>
